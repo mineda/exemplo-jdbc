@@ -1,0 +1,5 @@
+br\gov\sp\fatec\dao\TarefaDao.class
+br\gov\sp\fatec\entity\Tarefa.class
+br\gov\sp\fatec\Chart.class
+br\gov\sp\fatec\App.class
+br\gov\sp\fatec\dao\ConnectionManager.class
