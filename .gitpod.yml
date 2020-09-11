@@ -1,3 +1,4 @@
 tasks:
   - init: mysql < DDL.sql
-image: gitpod/workspace-mysql
+image:
+  file: .gitpod.Dockerfile
