@@ -1,5 +1,5 @@
 # exemplo-jdbc
-Exemplo do uso de JDBC com gráfico com JavaFx
+Exemplo do uso de JDBC com apresentação da tabela em JavaFx
 
 ## Compilação
 Para compilar use: mvn compile
