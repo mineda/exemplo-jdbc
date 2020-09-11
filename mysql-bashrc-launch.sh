@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# this script is intended to be called from .bashrc
+# This script is intended to be called from .bashrc
 # This is a workaround for not having something like supervisord
 
 if [ ! -e /var/run/mysqld/gitpod-init.lock ]
