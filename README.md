@@ -10,5 +10,8 @@ Projeto exemplo usando Maven, JDBC e JavaFX para inserir e listar registros em u
 ## Compilação
 Para compilar use: mvn compile
 
+## Gerar JAR
+Para gerar o JAR do projeto use: mvn package
+
 ## Execução
 Para executar use: mvn clean javafx:run
