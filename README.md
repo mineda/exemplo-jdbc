@@ -1,5 +1,3 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mineda/exemplo-jdbc) 
-
 # Projeto Maven, JDBC e JavaFX
 Projeto exemplo usando Maven, JDBC e JavaFX para inserir e listar registros em uma tabela.
 
