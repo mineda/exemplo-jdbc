@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.gov.sp.fatec.controller.TarefaController">
+   <children>
+      <TableView fx:id="tableTarefa" layoutX="42.0" layoutY="165.0" prefHeight="200.0" prefWidth="530.0">
+        <columns>
+          <TableColumn fx:id="clnId" prefWidth="32.0" text="Id" />
+          <TableColumn fx:id="clnDescricao" prefWidth="128.0" text="Descrição" />
+            <TableColumn fx:id="clnInicioPrevisto" prefWidth="92.0" text="Início Previsto" />
+            <TableColumn fx:id="clnFimPrevisto" prefWidth="87.0" text="Fim Previsto" />
+            <TableColumn fx:id="clnInicioReal" prefWidth="91.0" text="Início Real" />
+            <TableColumn fx:id="clnFimReal" prefWidth="96.0" text="Fim Real" />
+        </columns>
+      </TableView>
+      <Button fx:id="buttonCadastrar" layoutX="274.0" layoutY="118.0" mnemonicParsing="false" onAction="#cadastrarTarefa" text="Cadastrar" />
+      <TextField fx:id="descricao" layoutX="105.0" layoutY="30.0" />
+      <DatePicker fx:id="dataHoraInicioPrevisto" layoutX="372.0" layoutY="30.0" />
+      <DatePicker fx:id="dataHoraFimPrevisto" layoutX="372.0" layoutY="67.0" />
+      <Label fx:id="labelDescricao" layoutX="42.0" layoutY="34.0" text="Descrição:" />
+      <Label fx:id="labelInicioPrevisto" layoutX="280.0" layoutY="34.0" text="Início Previsto:" />
+      <Label fx:id="labelFimPrevisto" layoutX="280.0" layoutY="71.0" text="Fim Previsto:" />
+   </children>
+</AnchorPane>

@@ -1,6 +1,6 @@
 package br.gov.sp.fatec.entity;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 public class Tarefa {
     
@@ -8,13 +8,13 @@ public class Tarefa {
     
     private String descricao;
     
-    private Date dataInicioPrevisto;
+    private LocalDateTime dataInicioPrevisto;
     
-    private Date dataInicioReal;
+    private LocalDateTime dataInicioReal;
     
-    private Date dataFimPrevisto;
+    private LocalDateTime dataFimPrevisto;
     
-    private Date dataFimReal;
+    private LocalDateTime dataFimReal;
 
     public Long getId() {
         return id;
@@ -32,35 +32,35 @@ public class Tarefa {
         this.descricao = descricao;
     }
 
-    public Date getDataInicioPrevisto() {
+    public LocalDateTime getDataInicioPrevisto() {
         return dataInicioPrevisto;
     }
 
-    public void setDataInicioPrevisto(Date dataInicioPrevisto) {
+    public void setDataInicioPrevisto(LocalDateTime dataInicioPrevisto) {
         this.dataInicioPrevisto = dataInicioPrevisto;
     }
 
-    public Date getDataInicioReal() {
+    public LocalDateTime getDataInicioReal() {
         return dataInicioReal;
     }
 
-    public void setDataInicioReal(Date dataInicioReal) {
+    public void setDataInicioReal(LocalDateTime dataInicioReal) {
         this.dataInicioReal = dataInicioReal;
     }
 
-    public Date getDataFimPrevisto() {
+    public LocalDateTime getDataFimPrevisto() {
         return dataFimPrevisto;
     }
 
-    public void setDataFimPrevisto(Date dataFimPrevisto) {
+    public void setDataFimPrevisto(LocalDateTime dataFimPrevisto) {
         this.dataFimPrevisto = dataFimPrevisto;
     }
 
-    public Date getDataFimReal() {
+    public LocalDateTime getDataFimReal() {
         return dataFimReal;
     }
 
-    public void setDataFimReal(Date dataFimReal) {
+    public void setDataFimReal(LocalDateTime dataFimReal) {
         this.dataFimReal = dataFimReal;
     }
 
